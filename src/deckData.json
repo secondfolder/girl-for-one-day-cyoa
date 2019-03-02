@@ -13,6 +13,7 @@
       "title": "Physical",
       "id": 0,
       "description": "Design the physical body of your female life.",
+      "img": "physical.jpg",
       "contains": [
         {
           "title": "Height",
@@ -47,6 +48,7 @@
         {
           "title": "Hair Color",
           "id": 6,
+          "img": "hair.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -146,6 +148,7 @@
         {
           "title": "Body",
           "id": 21,
+          "img": "body.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -231,6 +234,7 @@
         {
           "title": "Ass",
           "id": 30,
+          "img": "ass.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -347,6 +351,7 @@
         {
           "title": "Intelligence",
           "id": 52,
+          "img": "intelligence.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -616,6 +621,7 @@
         {
           "title": "Finance",
           "id": 92,
+          "img": "finance.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -827,6 +833,7 @@
           "title": "Season",
           "id": 117,
           "description": "The good thing about seasons is that they don't last too long, sadly inside of this loop you're going to be trapped inside of one season for potentially years. Consider this choice carefully. ",
+          "img": "season.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -930,6 +937,7 @@
           "title": "Physical State",
           "id": 138,
           "description": "What sort of physical state do you wake up in?",
+          "img": "state.jpg",
           "contains": [
             {
               "title": "Hot Mess",
@@ -957,6 +965,7 @@
         {
           "title": "Mental State",
           "id": 139,
+          "img": "statemental.jpg",
           "contains": [
             {
               "title": "Hangover",
