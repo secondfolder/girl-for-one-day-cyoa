@@ -1,10 +1,10 @@
 {
-  "title": "Groundhog Day Girl CYOA",
+  "title": "Girl for One Day CYOA",
   "id": 4,
   "version": "1.0",
   "author": "BeTheGirlCYOA",
   "authorLink": "",
-  "description": "",
+  "description": "I've sensed that you've always wanted to try out being female? I've got the perfect opportunity for you. I can give you a female body and life, but I can only muster up enough magic to create 24 hours of this reality. \n\nWhat I can do is let you relive this one day multiple times, groundhog day style. I'm going to give you 100 points to design a body and life. Once you've done this, however many points are left can be squared to figure out how many loops of the day you get to live. ",
   "img": "",
   "imgSource": "https://www.pexels.com/photo/red-and-blue-hot-air-balloon-floating-on-air-on-body-of-water-during-night-time-36487/",
   "budget": 100,
@@ -79,6 +79,7 @@
             {
               "title": "Dyed",
               "id": 11,
+              "description": "Any unusual colour you want.",
               "maxSelectable": 1,
               "cost": 4
             }
@@ -124,32 +125,37 @@
             {
               "title": "Boyish",
               "id": 17,
+              "description": "Your face is manly.",
               "maxSelectable": 1,
-              "cost": 1
+              "cost": -1
             },
             {
               "title": "Plain",
               "id": 18,
+              "description": "A face that doesn't stand out from the crowd.",
               "maxSelectable": 1,
-              "cost": 2
+              "cost": 1
             },
             {
               "title": "Cute",
               "id": 19,
+              "description": "Cute face that someone can really fall in love with.",
               "maxSelectable": 1,
-              "cost": 3
+              "cost": 2
             },
             {
               "title": "Beautiful",
               "id": 20,
+              "description": "An instantly attractive face that draws looks wherever it goes.",
               "maxSelectable": 1,
-              "cost": 5
+              "cost": 4
             }
           ]
         },
         {
           "title": "Body",
           "id": 21,
+          "description": "What's your natural figure?",
           "img": "body.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -177,6 +183,7 @@
         {
           "title": "Weight",
           "id": 28,
+          "description": "How much fat on your bones? You won't be able to burn any weight at the end of every loop.",
           "img": "weight.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -185,19 +192,19 @@
               "title": "Chubby",
               "id": 25,
               "maxSelectable": 1,
-              "cost": 1
+              "cost": -2
             },
             {
               "title": "Average",
               "id": 26,
               "maxSelectable": 1,
-              "cost": 2
+              "cost": 0
             },
             {
               "title": "Skinny",
               "id": 27,
               "maxSelectable": 1,
-              "cost": 3
+              "cost": 2
             }
           ]
         },
@@ -264,6 +271,7 @@
         {
           "title": "Fitness",
           "id": 38,
+          "description": "How naturally fit is your body.",
           "img": "fitness.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -271,26 +279,30 @@
             {
               "title": "Unfit",
               "id": 39,
+              "description": "Your body quickly becomes out of breath if you do any exercise.",
               "maxSelectable": 1,
-              "cost": 1
+              "cost": -1
             },
             {
               "title": "Healthy",
               "id": 41,
+              "description": "Healthy fitness.",
               "maxSelectable": 1,
-              "cost": 2
+              "cost": 1
             },
             {
               "title": "Fit",
               "id": 40,
+              "description": "You're flexible and have quite good reflexes. ",
               "maxSelectable": 1,
-              "cost": 4
+              "cost": 3
             },
             {
               "title": "Athlete",
               "id": 42,
+              "description": "You're a true athlete, toned body and high stamina.",
               "maxSelectable": 1,
-              "cost": 3
+              "cost": 2
             }
           ]
         }
@@ -299,10 +311,12 @@
     {
       "title": "Mental",
       "id": 43,
+      "description": "Now it's time to design the mind of the body you're taking over and you're mind.",
       "contains": [
         {
           "title": "Control",
           "id": 44,
+          "description": "How much control do you have over the choices you'll be making?",
           "img": "control.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -310,26 +324,30 @@
             {
               "title": "Full Control",
               "id": 45,
+              "description": "You have full control over the choices you'll make during each loop. As long as you're avoiding parents/bosses/others, you'll have no problem ditching all responsibilities.",
               "maxSelectable": 1,
               "cost": 5
             },
             {
               "title": "Partial",
               "id": 46,
+              "description": "You'll find yourself being forced to go to the events that you're meant o be going to, but you can make choices once you're there.\n\nYou won't be able to ditch class/work but you can certainly decide not to pay attention when you're there.",
               "maxSelectable": 1,
-              "cost": 3
+              "cost": 0
             },
             {
               "title": "None",
               "id": 47,
+              "description": "You'll find yourself on autopilot going through the life of the body you're inhabiting. You'll have no choice but to pretty much do the exact same thing every loop.",
               "maxSelectable": 1,
-              "cost": 5
+              "cost": -5
             }
           ]
         },
         {
           "title": "Personality",
           "id": 48,
+          "description": "Who's personality is present in your mind?",
           "img": "personality.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -337,26 +355,30 @@
             {
               "title": "Your personality",
               "id": 49,
+              "description": "You'll completely keep your own personality and way of thinking during this whole experience. The choices below will only affect the life and perception of you before the day of the loop.",
               "maxSelectable": 1,
               "cost": 5
             },
             {
               "title": "50/50",
               "id": 50,
+              "description": "Your personality will be halfway between your own personality and the personality you create below.",
               "maxSelectable": 1,
-              "cost": 3
+              "cost": 1
             },
             {
               "title": "Her personality",
               "id": 51,
+              "description": "Your personality will be entirely based around the choices you select below, interests, thoughts etc.",
               "maxSelectable": 1,
-              "cost": 1
+              "cost": -5
             }
           ]
         },
         {
           "title": "Intelligence",
           "id": 52,
+          "description": "How naturally intelligent and well educated are you?",
           "img": "intelligence.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -365,19 +387,19 @@
               "title": "Dumb",
               "id": 53,
               "maxSelectable": 1,
-              "cost": 1
+              "cost": -2
             },
             {
               "title": "Ditzy",
               "id": 54,
               "maxSelectable": 1,
-              "cost": 2
+              "cost": 0
             },
             {
               "title": "Average",
               "id": 55,
               "maxSelectable": 1,
-              "cost": 3
+              "cost": 2
             },
             {
               "title": "Clever",
@@ -390,6 +412,7 @@
         {
           "title": "Sexuality",
           "id": 57,
+          "description": "Where do your sexual preferences lie?",
           "img": "sexual.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -398,13 +421,13 @@
               "title": "Asexual",
               "id": 58,
               "maxSelectable": 1,
-              "cost": 1
+              "cost": -2
             },
             {
               "title": "Straight",
               "id": 59,
               "maxSelectable": 1,
-              "cost": 2
+              "cost": 1
             },
             {
               "title": "Gay",
@@ -423,6 +446,7 @@
         {
           "title": "Romance",
           "id": 62,
+          "description": "How romantic are you?",
           "img": "romance.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -430,18 +454,21 @@
             {
               "title": "Zero Interest",
               "id": 63,
+              "description": "You have no interest in any romance with your sexual partners.",
               "maxSelectable": 1,
               "cost": 1
             },
             {
               "title": "Romantic",
               "id": 64,
+              "description": "Interested in traditional romance.",
               "maxSelectable": 1,
               "cost": 5
             },
             {
               "title": "Romance Obsessed",
               "id": 65,
+              "description": "Very focused on the romantic side of relationships.",
               "maxSelectable": 1,
               "cost": 3
             }
@@ -450,6 +477,7 @@
         {
           "title": "Libido",
           "id": 66,
+          "description": "How strong is your bodies need for sex?",
           "img": "libidio.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -457,18 +485,21 @@
             {
               "title": "Low",
               "id": 67,
+              "description": "You can put up with sex but it's mainly not what you're looking for in a partner.",
               "maxSelectable": 1,
               "cost": 1
             },
             {
               "title": "Medium",
               "id": 68,
+              "description": "Regular sexual need.",
               "maxSelectable": 1,
               "cost": 5
             },
             {
               "title": "High",
               "id": 69,
+              "description": "You NEED sexual pleasure regularly, you'll find yourself needing to deal with this through every loop.",
               "maxSelectable": 1,
               "cost": 3
             }
@@ -489,42 +520,42 @@
                 {
                   "title": "Boring",
                   "id": 71,
-                  "description": "Incompatible with cool.",
+                  "description": "Incompatible with cool.\n\nAll of your interests are boring and basic.",
                   "maxSelectable": 1,
                   "cost": -1
                 },
                 {
                   "title": "Cool",
                   "id": 72,
-                  "description": "Incompatible with boring.",
+                  "description": "Incompatible with boring.\n\nYou're interested in some cooler more out there stuff. People like to hear your thoughts on things.",
                   "maxSelectable": 1,
                   "cost": 2
                 },
                 {
                   "title": "Bitchy",
                   "id": 73,
-                  "description": "Incompatible with friendly.",
+                  "description": "Incompatible with friendly.\n\nPeople who aren't friends with you tend to have a very bad opinion of you.",
                   "maxSelectable": 1,
                   "cost": -1
                 },
                 {
                   "title": "Friendly",
                   "id": 74,
-                  "description": "Incompatible with bitchy.",
+                  "description": "Incompatible with bitchy.\n\nEveryone knows you and is welcoming towards you around your local area.",
                   "maxSelectable": 1,
                   "cost": 3
                 },
                 {
                   "title": "Shy",
                   "id": 75,
-                  "description": "Incompatible with flirty.",
+                  "description": "Incompatible with flirty.\n\nYou find it difficult to muster up the courage to talk to any romantic interests you have.",
                   "maxSelectable": 1,
                   "cost": -1
                 },
                 {
                   "title": "Flirty",
                   "id": 76,
-                  "description": "Incompatible with shy.",
+                  "description": "Incompatible with shy.\n\nEveryone knows you're a big flirt and you feel confident coming on to people.",
                   "maxSelectable": 1,
                   "cost": 1
                 }
@@ -537,6 +568,7 @@
     {
       "title": "Life",
       "id": 78,
+      "description": "Now it's time to design the general life of the female you'll be living as.",
       "contains": [
         {
           "title": "Stage in Life",
@@ -552,35 +584,35 @@
                 {
                   "title": "High School",
                   "id": 80,
-                  "description": "(18-19)",
+                  "description": "(18-19 years old)\n\nYou're in your final year of high school. It's going to be hard to do whatever you want as your parents will have plans for you regarding school and life throughout the loops.",
                   "maxSelectable": 1,
                   "cost": 5
                 },
                 {
                   "title": "College",
                   "id": 81,
-                  "description": "(19-22)",
+                  "description": "(19-22 years old)\n\nYou're living away from home on a college campus. Hopefully there's enough there to keep you busy.",
                   "maxSelectable": 1,
                   "cost": 7
                 },
                 {
                   "title": "Low End Career",
                   "id": 82,
-                  "description": "(24-28)",
+                  "description": "(24-28 years old)\n\nYou work a part-time job as a waitress, retail worker or something along those lines. You live in a small apartment by yourself.",
                   "maxSelectable": 1,
                   "cost": 3
                 },
                 {
                   "title": "High End Career",
                   "id": 83,
-                  "description": "(28-40)",
+                  "description": "(28-40)\n\nYou work as an office manager, managing... business.\n\nYou live alone or with a partner in a larger apartment. ",
                   "maxSelectable": 1,
                   "cost": 5
                 },
                 {
                   "title": "Housewife",
                   "id": 84,
-                  "description": "(22-40)",
+                  "description": "(22-40)\n\nYou're married and live in a house. You have anywhere between 0 and 6 children and may be pregnant during the loop.",
                   "maxSelectable": 1,
                   "cost": 2
                 }
@@ -591,6 +623,7 @@
         {
           "title": "When",
           "id": 86,
+          "description": "What time period does the loop take place during?",
           "img": "time.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -598,31 +631,35 @@
             {
               "title": "Modern",
               "id": 87,
-              "description": "Current date.",
+              "description": "It's the current date! You have access to modern amenities to entertain you through the loops.",
               "maxSelectable": 1,
               "cost": 3
             },
             {
               "title": "2000's",
               "id": 88,
+              "description": "You've gone a little bit back, you potentially have a smartphone but chances are your main access to the internet is an older computer. ",
               "maxSelectable": 1,
               "cost": 2
             },
             {
               "title": "90's",
               "id": 89,
+              "description": "You're going to be exploring some very different styles. ",
               "maxSelectable": 1,
               "cost": 1
             },
             {
               "title": "80's",
               "id": 90,
+              "description": "You're back in the 80's, get to know this decade much better from this female perspective. ",
               "maxSelectable": 1,
               "cost": 2
             },
             {
               "title": "Future",
               "id": 91,
+              "description": "Travel ten years into the future, adapt to the new technology as you adapt to your new female life.",
               "maxSelectable": 1,
               "cost": 3
             }
@@ -631,6 +668,7 @@
         {
           "title": "Finance",
           "id": 92,
+          "description": "How much money you got?",
           "img": "finance.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -664,6 +702,7 @@
         {
           "title": "Social Life",
           "id": 97,
+          "description": "What's your social standing in the area?",
           "img": "sociallife.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -671,24 +710,28 @@
             {
               "title": "Lonely",
               "id": 98,
+              "description": "Nobody really knows you that well, you'll get to make loads of first impressions every day.",
               "maxSelectable": 1,
               "cost": 1
             },
             {
               "title": "Best Friends",
               "id": 99,
+              "description": "You have one very close friend who trusts you completely.",
               "maxSelectable": 1,
               "cost": 3
             },
             {
               "title": "Popular",
               "id": 100,
+              "description": "Pretty much everyone in the local area knows you by name.",
               "maxSelectable": 1,
               "cost": 5
             },
             {
               "title": "Famous",
               "id": 101,
+              "description": "You're quite famous and are recognized wherever you go.",
               "maxSelectable": 1,
               "cost": 3
             }
@@ -697,6 +740,7 @@
         {
           "title": "Fashion Style",
           "id": 102,
+          "description": "You're going to have to wear whatever is in the wardrobe of the bedroom you wake up in. Let's find out what's in it.",
           "img": "style.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
@@ -704,24 +748,28 @@
             {
               "title": "Basic",
               "id": 103,
+              "description": "Very basic female clothes.",
               "maxSelectable": 1,
               "cost": 2
             },
             {
               "title": "Girly",
               "id": 104,
+              "description": "A lot of pink and frilly things.",
               "maxSelectable": 1,
               "cost": 1
             },
             {
               "title": "Nerdy",
               "id": 105,
+              "description": "A little more alternative, pop tees and colorful things.",
               "maxSelectable": 1,
               "cost": 3
             },
             {
               "title": "Goth",
               "id": 106,
+              "description": "Blacks. Loads of blacks and fishnet.",
               "maxSelectable": 1,
               "cost": 3
             }
@@ -730,23 +778,27 @@
         {
           "title": "Fashion Sense",
           "id": 107,
+          "description": "Now lets see what quality the clothes actually are.",
           "img": "sense.jpg",
           "contains": [
             {
               "title": "None",
               "id": 108,
+              "description": "Nothing seems to really match and it seems to be quite cheap.",
               "maxSelectable": 1,
               "cost": 1
             },
             {
               "title": "Fashionable",
               "id": 109,
+              "description": "There are definitely some very nice potential outfits in here.",
               "maxSelectable": 1,
               "cost": 5
             },
             {
               "title": "Slutty",
               "id": 110,
+              "description": "Everything seems to be quite tight-fitting and lowcut.",
               "maxSelectable": 1,
               "cost": 3
             }
