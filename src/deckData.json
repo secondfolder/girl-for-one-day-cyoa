@@ -1,128 +1,807 @@
 {
-  "title": "Get A Life",
+  "title": "Be The Girl For One Day CYOA",
   "id": 4,
   "version": "1.0",
-  "author": "Callum Gare",
+  "author": "BeTheGirlCYOA",
   "authorLink": "https://github.com/callumgare/",
-  "description": "Just letting you know, this is a demo of <a href='https://github.com/callumgare/choice-assist/'>Choice Assist</a>. Which is intended for making interactive versions of <a href='https://www.reddit.com/r/makeyourchoice/'>these</a>, a kind of cross between a choose your own adventure novel and a deckbuilding game. So you probably wont find this particular example to be terribly exciting.",
-  "img": "hot_air_balloon.jpg",
+  "description": "",
+  "img": "",
   "imgSource": "https://www.pexels.com/photo/red-and-blue-hot-air-balloon-floating-on-air-on-body-of-water-during-night-time-36487/",
-  "budget": 10,
+  "budget": 100,
   "contains": [
     {
-      "title": "Home",
-      "id": 11,
-      "description": "Where do you call home?",
+      "title": "Physical",
+      "id": 0,
+      "description": "Design the physical body of your female life.",
       "contains": [
         {
-          "title": "City",
-          "id": 5,
-          "description": "The place where things happen, career opportunities, Nightlife, the weird and the wonderful. It an also be a place of great isolation. Sometimes you might find yourself alone in a crowd of people.",
-          "img": "city.jpg",
-          "imgSource": "https://www.pexels.com/photo/architecture-buildings-business-city-374870/",
+          "title": "Height",
+          "id": 1,
+          "description": "How tall are you?",
           "maxSelectable": 1,
-          "cost": 5
-        },
-        {
-          "title": "Suburbs",
-          "id": 6,
-          "description": "The burbs; Backyards, plenty of room to bike around, bit calmer than the city but less disconnected than anywhere more rural. Where the suburb anthem of lawn mowers and whipper snippers plays every Saturday morning.\n<br><br>\nYou can pick up to 3 of this one.",
-          "img": "suburbs.jpg",
-          "imgSource": "https://www.pexels.com/photo/apartment-architecture-buildings-cars-243722/",
-          "maxSelectable": 3,
-          "cost": 3
-        },
-        {
-          "title": "Countryside",
-          "id": 7,
-          "description": "Space for days. Life here tends to be pretty quite and straight forward. You might be out of luck though if you're not interested in farming or running a general store.\n<br><br>\nYou can pick unlimited amounts of this one.",
-          "img": "farm.jpg",
-          "imgSource": "https://www.pexels.com/photo/houses-in-farm-against-cloudy-sky-248880/",
-          "cost": 2
-        },
-        {
-          "title": "Island",
-          "id": 10,
-          "description": "If you appreciate getting away from it all then this might be your dream local. Just don't expect too many modern conveniences",
-          "img": "island.jpg",
-          "imgSource": "https://www.pexels.com/photo/island-covered-with-green-trees-under-the-clear-skies-188029/",
-          "maxSelectable": 1,
-          "cost": 3
-        }
-      ]
-    },
-    {
-      "title": "Spending Time",
-      "id": 12,
-      "contains": [
-        {
-          "title": "Job",
-          "id": 13,
-          "description": "Your main and presumably paid occupation.",
-          "maxSelectable": 2,
+          "minSelectable": 1,
           "contains": [
             {
-              "title": "Mechanic",
+              "title": "Short",
+              "id": 2,
+              "description": "You'll be quite short, you'll need to look up to most females.",
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Medium",
+              "id": 3,
+              "description": "You'll be the average female height.",
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Tall",
+              "id": 5,
+              "description": "You'll be closer in height to average men and tower over other girls.",
+              "maxSelectable": 1,
+              "cost": 1
+            }
+          ]
+        },
+        {
+          "title": "Hair Color",
+          "id": 6,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Brown",
+              "id": 7,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Black",
               "id": 8,
-              "description": "The wear of an engine after you've giving it a good going over brings you a supreme joy. Average pay.",
-              "img": "mechanic.jpg",
-              "imgSource": "https://www.pexels.com/photo/architecture-buildings-business-city-374870/",
               "maxSelectable": 1,
-              "cost": 5
+              "cost": 1
             },
             {
-              "title": "Engineer",
-              "id": 0,
-              "description": "You've loved making things ever since you were knee-high to a grasshopper. You still get to do some of that among the more boring parts of your job. But you get paid pretty good money so that always helps.",
-              "img": "engineer.jpg",
-              "imgSource": "https://www.pexels.com/photo/people-laptop-industry-internet-132700/",
+              "title": "Blonde",
+              "id": 9,
               "maxSelectable": 1,
-              "cost": 5
+              "cost": 2
             },
             {
-              "title": "Entertainer",
-              "id": 1,
-              "description": "Maybe you make movies or produce music. But whatever it is you've fought hard to make your passion a viable career. The pay's not great but it's enough and you spend your days doing what you love.",
-              "img": "entertainment.jpg",
-              "imgSource": "https://www.pexels.com/photo/audio-business-computer-connection-265672/",
+              "title": "Ginger",
+              "id": 10,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Dyed",
+              "id": 11,
+              "maxSelectable": 1,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "title": "Hair Length",
+          "id": 12,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Short",
+              "id": 13,
+              "description": "Your hair is boyish, barely covering the your ears.",
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Medium",
+              "id": 14,
+              "description": "Your hair comes down to your shoulders.",
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Long",
+              "id": 15,
+              "description": "Your hair reaches far down your back.",
+              "maxSelectable": 1,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "title": "Face",
+          "id": 16,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Boyish",
+              "id": 17,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Plain",
+              "id": 18,
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Cute",
+              "id": 19,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Beautiful",
+              "id": 20,
               "maxSelectable": 1,
               "cost": 5
             }
           ]
         },
         {
-          "title": "Hobby",
-          "id": 14,
-          "description": "What do you do in your down time?",
+          "title": "Body",
+          "id": 21,
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
             {
-              "title": "Photography",
-              "id": 2,
-              "description": "You enjoy nothing more than the satisfaction of capturing a slice of the world in an image.",
-              "img": "photography.jpg",
-              "imgSource": "https://www.pexels.com/photo/camera-canon-digital-dslr-459735/",
+              "title": "Plain",
+              "id": 22,
               "maxSelectable": 1,
-              "cost": -5
+              "cost": 1
             },
             {
-              "title": "Painting",
-              "id": 3,
-              "description": "When you paint you enter a semi-meditative state, the whole world seems lighter.",
-              "img": "painting.jpg",
-              "imgSource": "https://www.pexels.com/photo/brush-painting-color-paint-102127/",
+              "title": "Curvy",
+              "id": 23,
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Hourglass",
+              "id": 24,
+              "maxSelectable": 1,
+              "cost": 2
+            }
+          ]
+        },
+        {
+          "title": "Weight",
+          "id": 28,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Chubby",
+              "id": 25,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Average",
+              "id": 26,
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Skinny",
+              "id": 27,
+              "maxSelectable": 1,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "title": "Breasts",
+          "id": 29,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Flat",
+              "id": 31,
               "maxSelectable": 1,
               "cost": 0
             },
             {
-              "title": "Dance",
-              "id": 9,
-              "description": "You've never been able to keep still and dance allows you to channel that energy.",
-              "img": "dance.jpg",
-              "imgSource": "https://www.pexels.com/photo/dancing-dance-people-hip-hop-12312/",
+              "title": "Small",
+              "id": 32,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Medium",
+              "id": 33,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Large",
+              "id": 34,
+              "maxSelectable": 1,
+              "cost": 2
+            }
+          ]
+        },
+        {
+          "title": "Ass",
+          "id": 30,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Flat",
+              "id": 35,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Bubble Butt",
+              "id": 36,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Large",
+              "id": 37,
+              "maxSelectable": 1,
+              "cost": 2
+            }
+          ]
+        },
+        {
+          "title": "Fitness",
+          "id": 38,
+          "contains": [
+            {
+              "title": "Unfit",
+              "id": 39,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Healthy",
+              "id": 41,
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Fit",
+              "id": 40,
+              "maxSelectable": 1,
+              "cost": 4
+            },
+            {
+              "title": "Athlete",
+              "id": 42,
+              "maxSelectable": 1,
+              "cost": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mental",
+      "id": 43,
+      "contains": [
+        {
+          "title": "Control",
+          "id": 44,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Full Control",
+              "id": 45,
               "maxSelectable": 1,
               "cost": 5
+            },
+            {
+              "title": "Partial",
+              "id": 46,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "None",
+              "id": 47,
+              "maxSelectable": 1,
+              "cost": 5
+            }
+          ]
+        },
+        {
+          "title": "Personality",
+          "id": 48,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Your personality",
+              "id": 49,
+              "maxSelectable": 1,
+              "cost": 5
+            },
+            {
+              "title": "50/50",
+              "id": 50,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Her personality",
+              "id": 51,
+              "maxSelectable": 1,
+              "cost": 1
+            }
+          ]
+        },
+        {
+          "title": "Intelligence",
+          "id": 52,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Dumb",
+              "id": 53,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Ditzy",
+              "id": 54,
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Average",
+              "id": 55,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Clever",
+              "id": 56,
+              "maxSelectable": 1,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "title": "Sexuality",
+          "id": 57,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Asexual",
+              "id": 58,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Straight",
+              "id": 59,
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Gay",
+              "id": 60,
+              "maxSelectable": 1,
+              "cost": 5
+            },
+            {
+              "title": "Bisexual",
+              "id": 61,
+              "maxSelectable": 1,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "title": "Romance",
+          "id": 62,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Zero Interest",
+              "id": 63,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Romantic",
+              "id": 64,
+              "maxSelectable": 1,
+              "cost": 5
+            },
+            {
+              "title": "Romance Obsessed",
+              "id": 65,
+              "maxSelectable": 1,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "title": "Libido",
+          "id": 66,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Low",
+              "id": 67,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Medium",
+              "id": 68,
+              "maxSelectable": 1,
+              "cost": 5
+            },
+            {
+              "title": "High",
+              "id": 69,
+              "maxSelectable": 1,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "title": "Social Personality",
+          "id": 77,
+          "description": "Choose 1 , 2 or 3 of these personality traits. If you only choose 1 it will be her dominant personality.",
+          "maxSelectable": 3,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "",
+              "id": 70,
+              "contains": [
+                {
+                  "title": "Boring",
+                  "id": 71,
+                  "description": "Incompatible with cool.",
+                  "maxSelectable": 1,
+                  "cost": -1
+                },
+                {
+                  "title": "Cool",
+                  "id": 72,
+                  "description": "Incompatible with boring.",
+                  "maxSelectable": 1,
+                  "cost": 2
+                },
+                {
+                  "title": "Bitchy",
+                  "id": 73,
+                  "description": "Incompatible with friendly.",
+                  "maxSelectable": 1,
+                  "cost": -1
+                },
+                {
+                  "title": "Friendly",
+                  "id": 74,
+                  "description": "Incompatible with bitchy.",
+                  "maxSelectable": 1,
+                  "cost": 3
+                },
+                {
+                  "title": "Shy",
+                  "id": 75,
+                  "description": "Incompatible with flirty.",
+                  "maxSelectable": 1,
+                  "cost": -1
+                },
+                {
+                  "title": "Flirty",
+                  "id": 76,
+                  "description": "Incompatible with shy.",
+                  "maxSelectable": 1,
+                  "cost": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Life",
+      "id": 78,
+      "contains": [
+        {
+          "title": "Stage in Life",
+          "id": 85,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "",
+              "id": 79,
+              "contains": [
+                {
+                  "title": "High School",
+                  "id": 80,
+                  "description": "(18-19)",
+                  "maxSelectable": 1,
+                  "cost": 5
+                },
+                {
+                  "title": "College",
+                  "id": 81,
+                  "description": "(19-22)",
+                  "maxSelectable": 1,
+                  "cost": 7
+                },
+                {
+                  "title": "Low End Career",
+                  "id": 82,
+                  "description": "(24-28)",
+                  "maxSelectable": 1,
+                  "cost": 3
+                },
+                {
+                  "title": "High End Career",
+                  "id": 83,
+                  "description": "(28-40)",
+                  "maxSelectable": 1,
+                  "cost": 5
+                },
+                {
+                  "title": "Housewife",
+                  "id": 84,
+                  "description": "(22-40)",
+                  "maxSelectable": 1,
+                  "cost": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "When",
+          "id": 86,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Modern",
+              "id": 87,
+              "description": "Current date.",
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "2000's",
+              "id": 88,
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "90's",
+              "id": 89,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "80's",
+              "id": 90,
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Future",
+              "id": 91,
+              "maxSelectable": 1,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "title": "Finance",
+          "id": 92,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Lower Class",
+              "id": 93,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Middle Class",
+              "id": 94,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Higher-Class",
+              "id": 95,
+              "maxSelectable": 1,
+              "cost": 5
+            },
+            {
+              "title": "Mega-Rich",
+              "id": 96,
+              "maxSelectable": 1,
+              "cost": 10
+            }
+          ]
+        },
+        {
+          "title": "Social Life",
+          "id": 97,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Lonely",
+              "id": 98,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Best Friends",
+              "id": 99,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Popular",
+              "id": 100,
+              "maxSelectable": 1,
+              "cost": 5
+            },
+            {
+              "title": "Famous",
+              "id": 101,
+              "maxSelectable": 1,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "title": "Fashion Style",
+          "id": 102,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Basic",
+              "id": 103,
+              "maxSelectable": 1,
+              "cost": 2
+            },
+            {
+              "title": "Girly",
+              "id": 104,
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Nerdy",
+              "id": 105,
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Goth",
+              "id": 106,
+              "maxSelectable": 1,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "title": "Fashion Sense",
+          "id": 107,
+          "contains": [
+            {
+              "title": "None",
+              "id": 108,
+              "maxSelectable": 1
+            },
+            {
+              "title": "Fashionable",
+              "id": 109,
+              "maxSelectable": 1
+            },
+            {
+              "title": "Slutty",
+              "id": 110,
+              "maxSelectable": 1
+            }
+          ]
+        },
+        {
+          "title": "Small Possessions",
+          "id": 123,
+          "description": "Choose as many as you'd like.",
+          "contains": [
+            {
+              "title": "",
+              "id": 111,
+              "contains": [
+                {
+                  "title": "Glasses",
+                  "id": 113,
+                  "maxSelectable": 1,
+                  "cost": -1
+                },
+                {
+                  "title": "New Choice",
+                  "id": 114,
+                  "maxSelectable": 1
+                },
+                {
+                  "title": "New Choice",
+                  "id": 115,
+                  "maxSelectable": 1
+                },
+                {
+                  "title": "New Choice",
+                  "id": 116,
+                  "maxSelectable": 1
+                },
+                {
+                  "title": "New Choice",
+                  "id": 117,
+                  "maxSelectable": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Big Possessions",
+          "id": 124,
+          "description": "If you are lower or middle class choose up to 2, if you are higher class or mega-rich choose up to 4.",
+          "maxSelectable": 4,
+          "minSelectable": 0,
+          "contains": [
+            {
+              "title": "",
+              "id": 112,
+              "contains": [
+                {
+                  "title": "Car",
+                  "id": 118,
+                  "maxSelectable": 1,
+                  "cost": 5
+                },
+                {
+                  "title": "New Choice",
+                  "id": 119,
+                  "maxSelectable": 1
+                },
+                {
+                  "title": "New Choice",
+                  "id": 120,
+                  "maxSelectable": 1
+                },
+                {
+                  "title": "New Choice",
+                  "id": 121,
+                  "maxSelectable": 1
+                },
+                {
+                  "title": "New Choice",
+                  "id": 122,
+                  "maxSelectable": 1
+                }
+              ]
             }
           ]
         }
