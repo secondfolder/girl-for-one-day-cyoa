@@ -1,9 +1,9 @@
 {
-  "title": "Be The Girl For One Day CYOA",
+  "title": "Groundhog Day Girl CYOA",
   "id": 4,
   "version": "1.0",
   "author": "BeTheGirlCYOA",
-  "authorLink": "https://github.com/callumgare/",
+  "authorLink": "",
   "description": "",
   "img": "",
   "imgSource": "https://www.pexels.com/photo/red-and-blue-hot-air-balloon-floating-on-air-on-body-of-water-during-night-time-36487/",
@@ -737,28 +737,23 @@
                 {
                   "title": "Glasses",
                   "id": 113,
+                  "description": "Your vision isn't quite 20/20, but you've got a stylish pair of glasses.",
                   "maxSelectable": 1,
                   "cost": -1
                 },
                 {
-                  "title": "New Choice",
+                  "title": "Drug Dealer",
                   "id": 114,
-                  "maxSelectable": 1
+                  "description": "You have a local drug dealers number in your phone, who should be able to get you anything you want. He's pretty friendly with you so you should be able to always ask to pay him back tomorrow.",
+                  "maxSelectable": 1,
+                  "cost": 5
                 },
                 {
-                  "title": "New Choice",
+                  "title": "Library Card",
                   "id": 115,
-                  "maxSelectable": 1
-                },
-                {
-                  "title": "New Choice",
-                  "id": 116,
-                  "maxSelectable": 1
-                },
-                {
-                  "title": "New Choice",
-                  "id": 117,
-                  "maxSelectable": 1
+                  "description": "You've got a library card to a local library that seems to have an unworldly amount of books. \n\nIf you're going to spend a lot of time here, you may as well get some reading done, right?",
+                  "maxSelectable": 1,
+                  "cost": 3
                 }
               ]
             }
@@ -778,30 +773,204 @@
                 {
                   "title": "Car",
                   "id": 118,
+                  "description": "You've got a drivers licence and a car. You can drive as far away from where you wake up as you can  manage within your 24 hours.",
                   "maxSelectable": 1,
                   "cost": 5
                 },
                 {
-                  "title": "New Choice",
+                  "title": "Entertainment",
                   "id": 119,
-                  "maxSelectable": 1
+                  "description": "You've got a pretty good entertainment system for the time period you'll be in.",
+                  "maxSelectable": 1,
+                  "cost": 5
                 },
                 {
-                  "title": "New Choice",
+                  "title": "Bank Account",
                   "id": 120,
-                  "maxSelectable": 1
+                  "description": "You have a card to a bank account you can access, with $5000 dollars you can access. This money is refreshed every loop obviously, so unless you're spending more than 5000 every day, you'll never run out.",
+                  "maxSelectable": 1,
+                  "cost": 10
                 },
                 {
-                  "title": "New Choice",
+                  "title": "Personal Assistant",
                   "id": 121,
-                  "maxSelectable": 1
+                  "description": "You don't actually OWN this person of course, but they work for you and will be willing to do pretty much anything. They can organise or book stuff while you're doing other activities.",
+                  "maxSelectable": 1,
+                  "cost": 15
                 },
                 {
-                  "title": "New Choice",
+                  "title": "Teleportation",
                   "id": 122,
-                  "maxSelectable": 1
+                  "description": "You have a teleportation device that you can use to travel any place in the world. Opens up the possibilities of what you can do in your day A LOT. ",
+                  "maxSelectable": 1,
+                  "cost": 40
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Day",
+      "id": 116,
+      "description": "Okay now you've worked out the general life you'll be taking. Now it's time to decide the specifics of the day you'll be looping through. ",
+      "contains": [
+        {
+          "title": "Season",
+          "id": 117,
+          "description": "The good thing about seasons is that they don't last too long, sadly inside of this loop you're going to be trapped inside of one season for potentially years. Consider this choice carefully. ",
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Autumn",
+              "id": 125,
+              "description": "Leaves and festivities are fun, but make sure to bring an umbrella with you everyday. The rain shower at 3.30pm is quite heavy.",
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Winter",
+              "id": 126,
+              "description": "Snowdays are fun, but when everyday is a snow day you might get a bit bored of the struggle to go anywhere.",
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Spring",
+              "id": 127,
+              "description": "Watch the flowers continue to bloom and bloom and bloom and bloom...",
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Summer",
+              "id": 128,
+              "description": "It's warm and sunny every day, only downside is the sweat.",
+              "maxSelectable": 1,
+              "cost": 5
+            }
+          ]
+        },
+        {
+          "title": "Type of Day",
+          "id": 129,
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Busy Day",
+              "id": 130,
+              "description": "Today happens to be a very busy day in the life you're taking, no matter what life stage you're at. Between part-time jobs, exams and appointments there seems to be always some activity you can avoid, or potentially have to take part in depending on your control.",
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Relaxing Day",
+              "id": 131,
+              "description": "It's a very typical day in your life, school/college or work are happening, but nothing too exciting or important is happening during any of them.",
+              "maxSelectable": 1,
+              "cost": 5
+            },
+            {
+              "title": "Day Off",
+              "id": 132,
+              "description": "It's the weekend, no work/school/college! You won't need to avoid any responsibilities, because you don't have any! ",
+              "maxSelectable": 1,
+              "cost": 10
+            },
+            {
+              "title": "Vacation",
+              "id": 133,
+              "description": "You're not in your typical location, but away in a different city on holiday. It shouldn't affect many of your other choices as you packed and brought anything you need. If you're in high school it's a family holiday, anything else it's a holiday by yourself or with your friends.",
+              "maxSelectable": 1,
+              "cost": 15
+            }
+          ]
+        },
+        {
+          "title": "Location",
+          "id": 134,
+          "description": "Where were you sleeping the night before, where will you wake up at the beginning of every loop.",
+          "maxSelectable": 1,
+          "minSelectable": 1,
+          "contains": [
+            {
+              "title": "Your Bed",
+              "id": 135,
+              "description": "You'll wake up in your own bed with all your stuff readily available for you to begin your day.",
+              "maxSelectable": 1,
+              "cost": 5
+            },
+            {
+              "title": "One Night Stand",
+              "id": 136,
+              "description": "You'll always wake up in someone else's bed that you slept with the night before. You'll have to do the walk of shame home across town/campus/building every morning, in the clothes you'd worn out the night before.",
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Tent",
+              "id": 137,
+              "description": "What, did you just come out of a retreat? A musical festival? Either way you always wake up in the woods, a bus ride away from civilization.",
+              "maxSelectable": 1,
+              "cost": 1
+            }
+          ]
+        },
+        {
+          "title": "Physical State",
+          "id": 138,
+          "description": "What sort of physical state do you wake up in?",
+          "contains": [
+            {
+              "title": "Hot Mess",
+              "id": 140,
+              "description": "Your hair is a complete mess and it looks like you haven't took care of yourself for quiet some time. It's going to take a while each morning if you want to look relatively presentable.",
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Presentable",
+              "id": 141,
+              "description": "You're going to need to give your hair a brush and add some make-up, but you could easily head out the way you wake up if you want and most people wouldn't bat an eye.",
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Woke Up Like This",
+              "id": 142,
+              "description": "You wake up with a full face of make-up and styled hair. If you want anyone to think you haven't spent all morning getting ready you're going to need to add some downgrading.",
+              "maxSelectable": 1,
+              "cost": 5
+            }
+          ]
+        },
+        {
+          "title": "Mental State",
+          "id": 139,
+          "contains": [
+            {
+              "title": "Hangover",
+              "id": 143,
+              "description": "You wake up with a splitting headache and grumpy. You're going to need to figure out a remedy quickly, or you're going to spend most of this experience in bed.",
+              "maxSelectable": 1,
+              "cost": 1
+            },
+            {
+              "title": "Tired",
+              "id": 144,
+              "description": "You should slowly drift out of sleep, but you feel relatively refreshed when you wake up. Maybe you'll need some motivation to get out of bed.",
+              "maxSelectable": 1,
+              "cost": 3
+            },
+            {
+              "title": "Fully Refreshed",
+              "id": 145,
+              "description": "You wake up quickly, bright and early and ready for the day.",
+              "maxSelectable": 1,
+              "cost": 5
             }
           ]
         }
