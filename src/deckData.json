@@ -87,6 +87,7 @@
         {
           "title": "Hair Length",
           "id": 12,
+          "img": "hairlength.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -116,6 +117,7 @@
         {
           "title": "Face",
           "id": 16,
+          "img": "face.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -175,6 +177,7 @@
         {
           "title": "Weight",
           "id": 28,
+          "img": "weight.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -261,6 +264,7 @@
         {
           "title": "Fitness",
           "id": 38,
+          "img": "fitness.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -299,6 +303,7 @@
         {
           "title": "Control",
           "id": 44,
+          "img": "control.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -325,6 +330,7 @@
         {
           "title": "Personality",
           "id": 48,
+          "img": "personality.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -417,6 +423,7 @@
         {
           "title": "Romance",
           "id": 62,
+          "img": "romance.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -443,6 +450,7 @@
         {
           "title": "Libido",
           "id": 66,
+          "img": "libidio.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -470,6 +478,7 @@
           "title": "Social Personality",
           "id": 77,
           "description": "Choose 1 , 2 or 3 of these personality traits. If you only choose 1 it will be her dominant personality.",
+          "img": "social.jpg",
           "maxSelectable": 3,
           "minSelectable": 1,
           "contains": [
@@ -532,6 +541,7 @@
         {
           "title": "Stage in Life",
           "id": 85,
+          "img": "stage.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -654,6 +664,7 @@
         {
           "title": "Social Life",
           "id": 97,
+          "img": "sociallife.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -719,6 +730,7 @@
         {
           "title": "Fashion Sense",
           "id": 107,
+          "img": "sense.jpg",
           "contains": [
             {
               "title": "None",
@@ -741,6 +753,7 @@
           "title": "Small Possessions",
           "id": 123,
           "description": "Choose as many as you'd like.",
+          "img": "small.jpg",
           "contains": [
             {
               "title": "",
@@ -870,6 +883,7 @@
         {
           "title": "Type of Day",
           "id": 129,
+          "img": "typeofday.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -907,6 +921,7 @@
           "title": "Location",
           "id": 134,
           "description": "Where were you sleeping the night before, where will you wake up at the beginning of every loop.",
+          "img": "place.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
