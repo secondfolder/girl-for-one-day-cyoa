@@ -1224,7 +1224,7 @@
           "title": "Write description",
           "id": 167,
           "maxSelectable": 1,
-          "cost": 25
+          "cost": -25
         }
       ]
     }
