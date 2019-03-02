@@ -735,17 +735,20 @@
             {
               "title": "None",
               "id": 108,
-              "maxSelectable": 1
+              "maxSelectable": 1,
+              "cost": 1
             },
             {
               "title": "Fashionable",
               "id": 109,
-              "maxSelectable": 1
+              "maxSelectable": 1,
+              "cost": 5
             },
             {
               "title": "Slutty",
               "id": 110,
-              "maxSelectable": 1
+              "maxSelectable": 1,
+              "cost": 3
             }
           ]
         },
@@ -953,6 +956,8 @@
           "id": 138,
           "description": "What sort of physical state do you wake up in?",
           "img": "state.jpg",
+          "maxSelectable": 1,
+          "minSelectable": 1,
           "contains": [
             {
               "title": "Hot Mess",
@@ -981,6 +986,8 @@
           "title": "Mental State",
           "id": 139,
           "img": "statemental.jpg",
+          "maxSelectable": 1,
+          "minSelectable": 1,
           "contains": [
             {
               "title": "Hangover",
@@ -1004,6 +1011,168 @@
               "cost": 5
             }
           ]
+        }
+      ]
+    },
+    {
+      "title": "Drawbacks",
+      "id": 146,
+      "description": "Here are some drawbacks I can give you in order to let you relive this day more times.",
+      "contains": [
+        {
+          "title": "Flu",
+          "id": 148,
+          "description": "You've got the flu throughout this experience. A hoarse throat, runny nose and a light cough. Nothing painful, just gets in the way of stuff.",
+          "maxSelectable": 1,
+          "cost": -5
+        },
+        {
+          "title": "Period",
+          "id": 147,
+          "description": "This day happens to be the worst day of your menstrual cycle. Expect bleeding and painful cramps.",
+          "maxSelectable": 1,
+          "cost": -15
+        },
+        {
+          "title": "Acne",
+          "id": 149,
+          "description": "There's a few annoying pimples on your face, you really wish they'd go away.",
+          "maxSelectable": 1,
+          "cost": -5
+        },
+        {
+          "title": "Wanted",
+          "id": 150,
+          "description": "As soon as you wake up word the entire local police force is on the lookout for you. Each day as soon as they catch sight of you, you'll need to start moving quickly until the day resets or you'll be going to sleep in a cell.",
+          "maxSelectable": 1,
+          "cost": -20
+        },
+        {
+          "title": "Stalker",
+          "id": 151,
+          "description": "A local man has become a little obsessed with you. He sleeps outside your house and will follow you throughout the day as much as he can. He never tries anything, just always watching you from a slight distance.",
+          "maxSelectable": 1,
+          "cost": -10
+        },
+        {
+          "title": "Serial Killer",
+          "id": 152,
+          "description": "A masked serial killer is hunting you down and intends to kill you on sight. Eventually through repetition I'm sure you'll learn his every move, but you're certain to painfully die a few times.",
+          "maxSelectable": 1,
+          "cost": -20
+        },
+        {
+          "title": "Permadeath",
+          "id": 153,
+          "description": "A little added risk, or big one, depending on how you were planning to spend your days. Originally if you died you simply skipped to next reset, but now if you die a single time you immediately are returned to normal life and won't get any more loops. ",
+          "maxSelectable": 1,
+          "cost": -30
+        },
+        {
+          "title": "Pregnant",
+          "id": 154,
+          "description": "Typically getting pregnant won't affect you at all, since your organs reset every loop. However if you take this option when you become pregnant you will be returned to your normal life and won't get any more loops.\n\nYou'll need to practice very safe sex or lose this whole opportunity.\n\n",
+          "maxSelectable": 1,
+          "cost": -25
+        },
+        {
+          "title": "No Reset",
+          "id": 155,
+          "description": "Now every loop has a 1/100 chance of not resetting for another 24 hours. It means you get to experience a little extra time, but if you've gotten yourself into a difficult situation you'll have to live with it for another 24 hours.",
+          "maxSelectable": 1,
+          "cost": -10
+        },
+        {
+          "title": "Insane",
+          "id": 156,
+          "description": "You had just recently been diagnosed as criminally insane. No one will every question the weird shit you do, but no one will ever take you seriously either. ",
+          "maxSelectable": 1,
+          "cost": -10
+        },
+        {
+          "title": "Nightmares",
+          "id": 157,
+          "description": "Every night during this process you will have terrifying extremely intense nightmares.",
+          "maxSelectable": 1,
+          "cost": -15
+        },
+        {
+          "title": "Random",
+          "id": 158,
+          "description": "The loops are just a little bit more random than they should be. Every now and again people will do or say things that they didn't do other days. Sometimes the weather will be a little different, small changes like that. ",
+          "maxSelectable": 1,
+          "cost": -10
+        }
+      ]
+    },
+    {
+      "title": "Bonuses",
+      "id": 159,
+      "description": "Here are few extra things I can offer you if you're willing to shave a few days off.",
+      "contains": [
+        {
+          "title": "Remaining Days",
+          "id": 160,
+          "description": "You will have a discrete tattoo on your wrist displaying how many loops you have remaining. ",
+          "maxSelectable": 1,
+          "cost": 5
+        },
+        {
+          "title": "Keep Box",
+          "id": 161,
+          "description": "You have a 1x1 meter box in your bedroom. Anything you put into the box won't reset between loops. You can keep journals, keepsakes, photos or whatever else in the box.",
+          "maxSelectable": 1,
+          "cost": 10
+        },
+        {
+          "title": "New Life",
+          "id": 162,
+          "description": "Every 100 days you can fall asleep while making physical contact with someone and you'll get to live the next single loop in their body instead.",
+          "maxSelectable": 1,
+          "cost": 20
+        }
+      ]
+    },
+    {
+      "title": "Return",
+      "id": 163,
+      "description": "Now it's time to work out how you're going to return back to your normal life.",
+      "maxSelectable": 1,
+      "minSelectable": 1,
+      "contains": [
+        {
+          "title": "One Night",
+          "id": 164,
+          "description": "When you go to sleep tonight the loops will begin. Once you finish your loops you'll wake back up tomorrow like nothing every happened.",
+          "maxSelectable": 1,
+          "cost": 0
+        },
+        {
+          "title": "Bit by Bit",
+          "id": 165,
+          "description": "Whenever you want to live one of your loops go to bed with a pair of panties under your pillow. Once you want to return to your life from the loops place a pair of boxers under your pillow. \n\nIf you want you can do this as many times as you'd like and spread your loops throughout your mortal life until your old age.",
+          "maxSelectable": 1,
+          "cost": 20
+        },
+        {
+          "title": "No Return",
+          "id": 166,
+          "description": "Once your loops are over that's it. You won't return to your normal life, you'll just fade away into whatever comes after life. \n\nThink hard about choosing this option.",
+          "maxSelectable": 1,
+          "cost": -100
+        }
+      ]
+    },
+    {
+      "title": "The End",
+      "id": 168,
+      "description": "Alright that's it. Time to square your points (multiply them by themselves) and figure out how many loops you have. If you're not happy with your amount I'm willing to offer you an extra 25 points if you write how you're planning to use your loops on the post on the subreddit.",
+      "contains": [
+        {
+          "title": "Write description",
+          "id": 167,
+          "maxSelectable": 1,
+          "cost": 25
         }
       ]
     }
