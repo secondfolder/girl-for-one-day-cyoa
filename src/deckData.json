@@ -198,6 +198,7 @@
         {
           "title": "Breasts",
           "id": 29,
+          "img": "breasts.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -256,6 +257,8 @@
         {
           "title": "Fitness",
           "id": 38,
+          "maxSelectable": 1,
+          "minSelectable": 1,
           "contains": [
             {
               "title": "Unfit",
@@ -376,6 +379,7 @@
         {
           "title": "Sexuality",
           "id": 57,
+          "img": "sexual.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -572,6 +576,7 @@
         {
           "title": "When",
           "id": 86,
+          "img": "time.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -675,6 +680,7 @@
         {
           "title": "Fashion Style",
           "id": 102,
+          "img": "style.jpg",
           "maxSelectable": 1,
           "minSelectable": 1,
           "contains": [
@@ -763,6 +769,7 @@
           "title": "Big Possessions",
           "id": 124,
           "description": "If you are lower or middle class choose up to 2, if you are higher class or mega-rich choose up to 4.",
+          "img": "bigpossessions.jpg",
           "maxSelectable": 4,
           "minSelectable": 0,
           "contains": [
